@@ -1,18 +1,13 @@
-#include <SFML/Graphics.hpp>
-#include <iostream>
+#include "OURA.h"
+
 
 
 int main() {
-	sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "Testing");
-	sf::Vector2u size = { 800, 600 };
-	window.setSize(size);
-	window.setFramerateLimit(60);
-
-	sf::RectangleShape rectangle;
-	rectangle.setFillColor(sf::Color::White);
-	rectangle.setSize({ 100.0f, 100.0f });
-	rectangle.setPosition({ 200, 200 });
 	
+	sf::RenderWindow window;
+	sf::Vector2u WindowSize = { 800, 600 };
+	OURA game;
+	game.createWindow(&window, WindowSize, sf::VideoMode::getDesktopMode(), "MyGame", 60);
 
 	sf::Event event;
 	while (window.isOpen())
@@ -23,11 +18,9 @@ int main() {
 				window.close();
 		}
 
-		window.clear();
+		game.Draw(&window);
 
-		window.draw(rectangle);
-
-		window.display();
+		
 	}
 	
 	return 0;
