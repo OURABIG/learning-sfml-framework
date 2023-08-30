@@ -9,7 +9,7 @@ int main() {
 	window.setFramerateLimit(60);
 
 	sf::RectangleShape rectangle;
-	rectangle.setFillColor(sf::Color::Blue);
+	rectangle.setFillColor(sf::Color::Green);
 	rectangle.setSize({ 100.0f, 100.0f });
 	rectangle.setPosition({ 200, 200 });
 	
