@@ -3,7 +3,7 @@
 
 
 OURA::OURA(){
-	this->world = new b2World(b2Vec2(0.0f, 980.0f));
+	this->world = new b2World(b2Vec2(0.0f, 981.0f));
 
 	//creating dynamicbody
 	b2BodyDef bodyDef;
