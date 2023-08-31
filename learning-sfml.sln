@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "learning-sfml", "learning-sfml.vcxproj", "{0B288BC4-C5E9-41CD-B31A-F0F555A6896E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "learning-sfml", "Framework\learning-sfml.vcxproj", "{0B288BC4-C5E9-41CD-B31A-F0F555A6896E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
